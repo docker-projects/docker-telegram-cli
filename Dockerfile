@@ -37,4 +37,8 @@ RUN \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/
 
+VOLUME /root/.telegram-cli
+VOLUME /media
+
+
 ENTRYPOINT [ "/usr/bin/telegram-cli" ]
