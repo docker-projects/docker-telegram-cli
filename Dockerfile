@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:buster-slim
 
 RUN \
   apt-get update && \
@@ -38,7 +38,5 @@ RUN \
   rm -rf /var/lib/apt/lists/
 
 VOLUME /root/.telegram-cli
-VOLUME /media
-
 
 ENTRYPOINT [ "/usr/bin/telegram-cli" ]
