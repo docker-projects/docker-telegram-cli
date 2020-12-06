@@ -5,7 +5,10 @@ The corresponding Lua script is here: https://github.com/kenorb-contrib/tg
 ## Crear Docker
 
 ```
-docker create  --name telegram-cli  ugeek/telegram-cli:amd64
+docker create  
+ --name telegram-cli \
+ -v $HOME/docker/telegram-cli/config:/root/.telegram-cli \
+  ugeek/telegram-cli:amd64
 ```
 
 ## Indicar telegram-cli
