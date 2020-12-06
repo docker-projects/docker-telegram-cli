@@ -16,7 +16,7 @@ docker start telegram-cli
 
 ## Iniciar telegram-cli
 ```
-docker exec -it telegram-cli telegram-cli
+docker exec -it telegram-cli telegram-cli -N -W
 ```
 
 
