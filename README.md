@@ -3,7 +3,7 @@
 ## Crear Docker
 
 ```
-docker create  
+docker create \
  --name telegram-cli \
  -v $HOME/docker/telegram-cli/config:/root/.telegram-cli \
   ugeek/telegram-cli:amd64
