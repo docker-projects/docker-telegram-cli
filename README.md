@@ -1,6 +1,4 @@
-This is a Dockerfile to have a recently updated version of telegram-cli working in 2020 without segfaulting. Hopefully...
-
-The corresponding Lua script is here: https://github.com/kenorb-contrib/tg
+# Telegram-cli para ARM y AMD64
 
 ## Crear Docker
 
@@ -22,3 +20,6 @@ docker exec -it telegram-cli telegram-cli
 ```
 
 
+This is a Dockerfile to have a recently updated version of telegram-cli working in 2020 without segfaulting. Hopefully...
+
+The corresponding Lua script is here: https://github.com/kenorb-contrib/tg
