@@ -5,7 +5,7 @@
 ```
 docker create \
  --name telegram-cli \
- -v $HOME/docker/telegram-cli/config:/root/.telegram-cli \
+ -v $HOME/docker/telegram-cli:/root/.telegram-cli \
   ugeek/telegram-cli:amd64
 ```
 
